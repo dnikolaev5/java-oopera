@@ -1,10 +1,5 @@
 import java.util.Objects;
 
-enum Gender {
-    MALE,
-    FEMALE
-}
-
 public class Actor extends Person {
     public double height;
 

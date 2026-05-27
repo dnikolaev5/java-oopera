@@ -11,8 +11,8 @@ public class Theatre {
         Director director2 = new Director("Елена", "Николаева", Gender.FEMALE, 3);
 
         // Создаём автора музыки и хореографа (используем как строки)
-        String musicAuthor = "Пётр Чайковский";
-        String choreographer = "Михаил Фокин";
+        Person musicAuthor = new Person("Пётр", "Чайковский",Gender.MALE);
+        Person choreographer = new Person("Михаил","Фокин",Gender.MALE);
 
         // Создаём спектакли
         Show regularShow = new Show("Гамлет", 120, director1);
